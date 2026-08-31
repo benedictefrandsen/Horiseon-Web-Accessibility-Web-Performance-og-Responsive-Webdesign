@@ -198,3 +198,45 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .header h1,
+    .header nav {
+        display: block;
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .header nav ul li {
+        display: block;
+        margin: 15px 0 0;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .content,
+    .benefits {
+        float: none;
+        width: auto;
+        margin: 20px;
+    }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        height: auto;
+        padding: 30px;
+    }
+
+    .float-left,
+    .float-right {
+        float: none;
+        display: block;
+        width: 100%;
+        max-height: none;
+        margin: 0 0 20px;
+    }
+}
