@@ -184,7 +184,7 @@ En titel bør kort beskrive både websitet og sidens vigtigste indhold.
 
 Formulér selv en passende titel til Horiseon.
 
----
+<title>Horiseon | Digital Marketing Agency</title>
 
 # Opgave 3 – Kontrollér dokumentets `<head>`
 
