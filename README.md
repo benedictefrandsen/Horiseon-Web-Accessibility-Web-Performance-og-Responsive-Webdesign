@@ -194,6 +194,7 @@ Starterprojektet indeholder allerede:
 
 ```html
 <meta charset="UTF-8" />
+
 ```
 
 Undersøg, hvad der mangler for at gøre siden bedre forberedt til forskellige viewport-størrelser.
