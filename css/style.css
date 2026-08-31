@@ -42,6 +42,10 @@ a {
     color: #ffffff;
 }
 
+.header a {
+    text-decoration: none;
+}
+
 a:focus-visible {
     outline: 3px solid currentColor;
     outline-offset: 4px;
