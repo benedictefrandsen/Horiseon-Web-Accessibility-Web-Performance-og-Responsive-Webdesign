@@ -46,6 +46,17 @@ a {
     text-decoration: none;
 }
 
+.header a:hover,
+.header a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.header a:focus-visible {
+    outline: 3px solid #ffdd57;
+    outline-offset: 4px;
+}
+
 p {
     font-size: 16px;
 }
