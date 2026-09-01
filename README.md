@@ -720,7 +720,7 @@ Brug samme indstillinger ved før- og eftermålingen.
 Notér:
 
 ```text
-Performance før optimering: ______
+Performance før optimering: 75
 ```
 
 > Performance-scoren kan variere lidt mellem målinger. Brug derfor samme browser, samme Lighthouse-indstillinger og så vidt muligt samme testforhold ved før- og eftermålingen.
