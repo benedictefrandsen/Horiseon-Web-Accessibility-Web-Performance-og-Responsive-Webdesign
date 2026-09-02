@@ -936,16 +936,37 @@ Test eksempelvis:
 
 Undersøg:
 
-- Bliver navigationen for bred?
-- Overlapper indhold?
-- Bliver serviceområderne for smalle?
-- Bliver Benefits-kolonnen for smal?
-- Skalerer billederne?
-- Opstår vandret scrolling?
+- Bliver navigationen for bred? 
+- Overlapper indhold? 
+- Bliver serviceområderne for smalle? 
+- Bliver Benefits-kolonnen for smal? 
+- Skalerer billederne? 
+- Opstår vandret scrolling? 
 
 Dokumentér mindst tre problemer.
 
 ---
+
+ Bliver navigationen for bred? - Nej, det bliver for sammenpresset ved 320 px.
+- Overlapper indhold? Ja
+- Bliver serviceområderne for smalle? Ja
+- Bliver Benefits-kolonnen for smal? Ja
+- Skalerer billederne? Ja
+- Opstår vandret scrolling? Nej ikke ved 320 px.
+
+ Bliver navigationen for bred? - Nej, det bliver for sammenpresset ved 480 px.
+- Overlapper indhold? Ja
+- Bliver serviceområderne for smalle? Ja
+- Bliver Benefits-kolonnen for smal? Ja
+- Skalerer billederne? Ja
+- Opstår vandret scrolling? Nej ikke ved 480 px.
+
+ Bliver navigationen for bred? - Nej, den bliver for sammenpresset ved 768 px.
+- Overlapper indhold? Nej
+- Bliver serviceområderne for smalle? Ja
+- Bliver Benefits-kolonnen for smal? Ja
+- Skalerer billederne? Ja
+- Opstår vandret scrolling? Nej ikke ved 768 px.
 
 ## Find det gamle layoutsystem
 
