@@ -1811,6 +1811,14 @@ Responsive test ved flere viewport-bredder
 Du skal kunne forklare mindst:
 
 - tre accessibility-forbedringer
+
+Accessibility
+
+Semantiske HTML-elementer som <header>, <nav>, <main>, <section>, <aside> og <footer> giver skærmlæsere og andre hjælpemidler en tydelig sidestruktur.
+Billeder har fået passende alt-tekster. Servicebilleder beskrives, mens dekorative benefit-ikoner bruger alt="".
+Navigationen kan bruges med tastatur, og links får en tydelig gul fokusramme og understregning ved :focus-visible.
+Kontrasten i Benefits-området blev forbedret ved at ændre baggrundsfarven til #1e6f96, så hvid tekst opfylder WCAG AA.
+
 - to performance-forbedringer
 - to responsive design-valg
 
