@@ -989,6 +989,18 @@ Hvilke elementer skal stå under hinanden?
 
 Før du skriver Flexbox, skal du forstå den ønskede struktur.
 
+### Svar
+
+På større skærme skal hovedindholdet og Benefits-området stå ved siden af hinanden:
+
+```text
+.content | .benefits
+```
+
+I headeren skal logoet og navigationen også stå ved siden af hinanden.
+
+De tre serviceområder i `.content` skal stå under hinanden, og de tre benefit-kort i `.benefits` skal også stå under hinanden. Inde i hvert serviceområde skal billedet og teksten fortsat ligge ved siden af hinanden på større skærme.
+
 ---
 
 # Opgave 21 – Brug Flexbox i headeren
