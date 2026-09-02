@@ -1576,6 +1576,14 @@ flex-wrap
 eller ændring af `flex-direction` kan være relevant.
 
 ---
+Ja. Jeg har testet siden ved 320px og 480px.
+
+Ingen vandret scrolling
+Ingen elementer går uden for viewporten
+Hovedindhold og Benefits stables korrekt lodret
+Navigationen er tilgængelig og placeret over indholdet
+Servicebillederne holder sig inden for deres containere
+Siden passer derfor til små skærme med det nuværende breakpoint.
 
 # Opgave 28 – Sammenlign med referencebilledet og gennemfør afsluttende responsive test
 
