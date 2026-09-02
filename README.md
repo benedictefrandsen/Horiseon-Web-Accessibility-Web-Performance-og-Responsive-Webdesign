@@ -1605,6 +1605,19 @@ Du skal **ikke** nødvendigvis lave en pixel-perfekt kopi.
 Du skal kunne forklare dine layoutvalg.
 
 ---
+Vurdering
+
+Overordnet placering: På desktop ligger overskriften på sin egen række. Serviceområderne og Benefits står ved siden af hinanden, som i reference-layoutet. På mobil stables områderne i en logisk læserækkefølge.
+
+Indbyrdes afstand: Der er ensartet 20px afstand mellem hovedkolonner og servicebokse. Benefits bruger 22px afstand mellem overskrift og benefit-kort.
+
+Størrelsesforhold: Desktop bruger en 3:1-fordeling: marketingkolonnen er ca. 1005px, og Benefits er ca. 375px ved 1440 px viewport. Det giver mest plads til det primære indhold.
+
+Læsbarhed: Serviceboksene har luft omkring tekst og billeder. På mobil bliver serviceboksene 280px brede ved 320px, og billederne skalerer ned til 232px, så de bliver inden for boksene.
+
+Desktop-layout: Ingen vandret scrolling. <h1> ligger øverst, og de to kolonner ligger korrekt side om side med 20px afstand.
+
+Mobile-layout: Ved 320px er der ingen vandret scrolling. Header, navigation, marketing og Benefits er lodret stablet, og billederne holder sig i deres containere.
 
 ## Test flere viewport-størrelser
 
