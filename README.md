@@ -1398,6 +1398,7 @@ main.content bruger Flexbox for at placere .marketing og aside.benefits ved side
 .services bruger flex: 1, så serviceboksene kan dele den tilgængelige plads i .marketing i stedet for at bruge faste højder.
 
 aside.benefits bruger flex-direction: column, fordi overskriften og de tre benefit-kort skal organiseres lodret med en ensartet afstand.
+
 # Opgave 26 – Tilføj ét CSS breakpoint med media query
 
 Desktop-layoutet skal nu tilpasses mindre skærme.
