@@ -98,11 +98,22 @@ p {
 }
 
 .marketing {
+    display: flex;
+    flex-direction: column;
     flex: 3 1 0;
+    gap: 20px;
+}
+
+.services {
+    flex: 1;
 }
 
 .benefits {
+    display: flex;
+    flex-direction: column;
     flex: 1 1 0;
+    align-items: center;
+    gap: 22px;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #1e6f96;
@@ -117,7 +128,6 @@ p {
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
@@ -139,7 +149,6 @@ p {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
-    margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
