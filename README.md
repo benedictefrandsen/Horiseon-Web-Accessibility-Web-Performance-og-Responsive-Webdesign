@@ -1391,6 +1391,13 @@ Du skal kunne forklare:
 
 ---
 
+main.content bruger Flexbox for at placere .marketing og aside.benefits ved siden af hinanden på desktop, mens <h1> kan optage sin egen række.
+
+.marketing bruger flex-direction: column, fordi de tre servicebokse skal ligge lodret under hinanden.
+
+.services bruger flex: 1, så serviceboksene kan dele den tilgængelige plads i .marketing i stedet for at bruge faste højder.
+
+aside.benefits bruger flex-direction: column, fordi overskriften og de tre benefit-kort skal organiseres lodret med en ensartet afstand.
 # Opgave 26 – Tilføj ét CSS breakpoint med media query
 
 Desktop-layoutet skal nu tilpasses mindre skærme.
