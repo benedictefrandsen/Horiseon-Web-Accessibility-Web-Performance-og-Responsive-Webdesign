@@ -1823,7 +1823,11 @@ Kontrasten i Benefits-området blev forbedret ved at ændre baggrundsfarven til 
 De tre servicebilleder blev konverteret fra JPEG til WebP og nedskaleret til passende pixelmål. Det reducerer deres downloadstørrelse betydeligt.
 Hero-billedet blev nedskaleret fra 8688 × 5792px og ca. 6,3 MB til 1920 × 1280px og ca. 127 KB.
 Hero-billedet ligger nu som et synligt HTML-billede med fetchpriority="high" og loading="eager", så browseren kan prioritere LCP-ressourcen.
+
 - to responsive design-valg
+Headeren bruger Flexbox til at placere logo og navigation ved siden af hinanden på desktop, og skifter til lodret layout under 768px.
+main.content bruger Flexbox med en bred marketingkolonne og en smallere Benefits-kolonne på desktop. På små skærme stables områderne lodret.
+Servicebilledernes gamle floats fjernes på små skærme, og billederne fylder containerens bredde uden at skabe vandret scrolling.
 
 ---
 
